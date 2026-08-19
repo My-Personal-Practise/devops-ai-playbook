@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: 133130235898.dkr.ecr.ap-south-2.amazonaws.com/orders:ca2d00d65a2a39f70dfbbb14f11125d6b84cb075
+          image: 133130235898.dkr.ecr.ap-south-2.amazonaws.com/orders:089ed5e082fa8479cf8b424656c24f8ad0fc3dcb
           ports:
             - containerPort: 3005
           env:
