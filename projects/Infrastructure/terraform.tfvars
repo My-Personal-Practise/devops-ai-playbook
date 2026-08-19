@@ -1,27 +1,27 @@
-region = "us-east-1"
+region   = "ap-south-2"
 vpc_name = "EKS-Demo-VPC"
 vpc_cidr = "10.1.0.0/16"
 
- subnets = [
+subnets = [
   {
-    name = "subnet-1"
-    cidr_block = "10.1.1.0/24"
-    availability_zone = "us-east-1a"
+    name              = "subnet-1"
+    cidr_block        = "10.1.1.0/24"
+    availability_zone = "ap-south-2a"
   },
 
   {
-    name = "subnet-2",
-    cidr_block = "10.1.2.0/24",
-    availability_zone = "us-east-1b"
+    name              = "subnet-2",
+    cidr_block        = "10.1.2.0/24",
+    availability_zone = "ap-south-2b"
   },
   {
-    name = "subnet-3",
-    cidr_block = "10.1.3.0/24",
-    availability_zone = "us-east-1c"
+    name              = "subnet-3",
+    cidr_block        = "10.1.3.0/24",
+    availability_zone = "ap-south-2c"
   }
- ]
+]
 
-cluster_name = "eks-cluster"
+cluster_name    = "eks-cluster"
 node_group_name = "eks-node-group"
 
 instance_types = ["m7i-flex.large"]
