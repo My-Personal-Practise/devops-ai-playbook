@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: 133130235898.dkr.ecr.ap-south-2.amazonaws.com/auth:5e4592acbb44d39038de2b0fa3c3be416ea32078
+          image: 133130235898.dkr.ecr.ap-south-2.amazonaws.com/auth:9a5a323ffe7b1cdc45645482dfbf1c1b5edccfdf
           ports:
             - containerPort: 3002
           env:
